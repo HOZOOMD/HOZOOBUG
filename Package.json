@@ -1,0 +1,19 @@
+{
+  "name": "hozoo-md-xeon",
+  "version": "2025.2.0",
+  "description": "HOZOO MD + XEON Dual Engine WhatsApp Bot",
+  "main": "hozoo-md-xeon.js",
+  "scripts": {
+    "start": "node hozoo-md-xeon.js",
+    "dev": "nodemon hozoo-md-xeon.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.0",
+    "moment-timezone": "^0.5.43"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
